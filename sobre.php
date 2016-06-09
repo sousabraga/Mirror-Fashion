@@ -4,18 +4,18 @@
 		<meta charset="UTF-8"/>
 		<title>Sobre a Mirror Fashion</title>
 		<link rel="stylesheet" href="css/sobre.css"/>
+		<link rel="stylesheet" href="css/estilos.css"/>
 	</head>
 	<body>
-		<header class="container">
-			<h1><img src="img/logo.png" alt="Mirror Fashion"/></h1>
-		</header>
+		
+		<?php include_once('cabecalho.php'); ?>
 		
 		<h1 class="h1-background">A Mirror Fashion</h1>
 
 		<article>
 			<section>
 				<p>A <strong>Mirror Fashion</strong> é a maior empresa comércio eletrônico no segmento de moda em todo o mundo. 
-				Fundada há <?php print date('Y') - 1932; ?>, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
+				Fundada há <?php print date('Y') - 1932; ?> anos, possui filiais em 124 países, sendo líder de mercado com mais de 90% de 
 				participação em 118 deles.</p>
 				
 				<p>Nosso centro de distribuição fica em <a href="https://maps.google.com.br/?q=Jacarezinho">Jacarezinho, no Paraná</a>. 
@@ -72,10 +72,7 @@
 			<li>Mais de um milhão de funcionários em todo o mundo</li>
 		</ul>
 		
-		<div id="rodape">
-			<img src="img/logo.png"/>
-			
-			&copy; Copyright Mirror Fashion
-		</div>
+		<?php include_once('rodape.php'); ?>
+		
 	</body>
 </html>
