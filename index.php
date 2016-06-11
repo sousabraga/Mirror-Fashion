@@ -5,6 +5,17 @@
 		<title>Mirror Fashion</title>
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/estilos.css"/>
+		<script>
+			var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
+			var bannerAtual = 0;
+			
+			function trocaBanner() {
+				bannerAtual = (bannerAtual + 1) % 2;
+				document.querySelector('.destaque img').src = banners[bannerAtual];
+			}
+			
+			setInterval(trocaBanner, 4000);
+		</script>
 	</head>
 	<body>
 		<?php include_once('cabecalho.php'); ?>
