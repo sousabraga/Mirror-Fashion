@@ -5,6 +5,7 @@
 		<title>Mirror Fashion</title>
 		<link rel="stylesheet" href="css/reset.css"/>
 		<link rel="stylesheet" href="css/estilos.css"/>
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans|Bad+Script"/>
 		<script>
 			var banners = ["img/destaque-home.png", "img/destaque-home-2.png"];
 			var bannerAtual = 0;
